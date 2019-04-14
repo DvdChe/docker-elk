@@ -7,8 +7,8 @@ services:
             dockerfile: dockerfile.es
         image: dch/elasticsearch
         hostname: elasticsearch
-    #volumes:
-    #ports:
+        tty: true
+        #volumes:
+        #ports:
         #- xxx:xxx
-    #tty: true
     
