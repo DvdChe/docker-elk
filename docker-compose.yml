@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+    es:
+        build:
+            context: .
+            dockerfile: dockerfile.es
+        image: dch/elasticsearch
+        hostname: elasticsearch
+    #volumes:
+    #ports:
+        #- xxx:xxx
+    #tty: true
+    
